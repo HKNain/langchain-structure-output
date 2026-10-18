@@ -1,0 +1,23 @@
+
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Student's full name"
+    },
+    "age": {
+      "type": "integer",
+      "description": "Student's age in years"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Student's skills"
+    }
+  },
+  "required": ["name", "age", "skills"],
+  "additionalProperties": false
+}
